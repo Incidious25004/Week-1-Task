@@ -1,4 +1,3 @@
-// Example functionality for buttons
 document.querySelector(".add-to-cart").addEventListener("click", () => {
   alert("NVIDIA GeForce RTX 4090 added to your cart!");
 });
