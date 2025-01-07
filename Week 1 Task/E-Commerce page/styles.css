@@ -1,0 +1,133 @@
+/* Enhanced Styling for Immersive Experience */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+}
+
+header {
+    background: #2c2a4a;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+header .nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header .nav a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.product {
+    display: flex;
+    gap: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-details h1 {
+    font-size: 2.5em;
+    color: #ffcc00;
+}
+
+.rating {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #ffcc00;
+}
+
+.product-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.8em;
+    color: #28a745;
+    margin: 20px 0;
+}
+
+.price del {
+    color: #ff6f61;
+    margin-left: 10px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.actions .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.actions .add-to-cart:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.actions .buy-now {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.actions .buy-now:hover {
+    background-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+.details h2 {
+    font-size: 1.8em;
+    margin-top: 20px;
+    color: #ffcc00;
+}
+
+.details ul {
+    list-style: square;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
+
+footer {
+    background: #2c2a4a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+}
